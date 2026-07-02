@@ -26,19 +26,19 @@ const courseLinks = [
 ];
 
 const portfolio = {
-    role: "AI & Knowledge Graph Engineer",
-    eyebrow: "AI & Knowledge Graph Engineer · Graph Mining · LLM Systems",
-    title: "Building AI systems that turn biological graphs into interpretable insight.",
+    role: "AI & Graph Systems Engineer",
+    eyebrow: "AI & Graph Systems Engineer · Graph Mining · LLM Systems",
+    title: "Building AI systems that turn complex graphs into interpretable insight.",
     intro:
-      "I build graph-based AI systems across biomedical knowledge graphs, neural subgraph mining, LLM motif interpretation, plant disease classification, and deployable AI product interfaces.",
+      "I build graph-based AI systems across knowledge graphs, neural subgraph mining, LLM interpretation, visual analytics, and deployable AI product interfaces. My project examples use scientific and plant data, but the tooling is domain-agnostic.",
     cvUrl: links.aiCv,
-    cvLabel: "AI/KG CV",
+    cvLabel: "AI/Graph CV",
     identity:
       "UAE residency visa holder · twofour54 Software Developer license · Addis Ababa, Ethiopia",
-    marquee: ["Knowledge graphs", "Neural graph mining", "LLM interpretation", "BioAI research", "UAE work-ready"],
+    marquee: ["Knowledge graphs", "Neural graph mining", "LLM interpretation", "Graph analytics", "UAE work-ready"],
     systemsTitle: "AI systems from graph data to interpretation.",
     systemsIntro:
-      "Neural mining, biomedical knowledge graphs, LLM-based motif explanation, visual exploration, and AI applications built on production-aware backends.",
+      "Neural mining, knowledge graphs, LLM-based pattern explanation, visual exploration, and AI applications built on production-aware backends.",
     timeline: ["NeuroGraph", "SPMiner", "BioCypher KG", "TFLink", "STRING PPI", "Coffee AI"],
     projects: [
       {
@@ -58,11 +58,11 @@ const portfolio = {
         repo: "https://github.com/rejuve-bio/neural-subgraph-matcher-miner",
       },
       {
-        title: "BioCypher KG & Biomedical Analysis",
+        title: "Knowledge Graph Infrastructure & Analysis",
         period: "Rejuve.Bio · iCog Labs",
         text:
-          "Built and analyzed biomedical KG infrastructure integrating human and Drosophila sources, then used graph mining workflows to surface recurring biological motifs.",
-        chips: ["BioCypher", "Neo4j", "BioAI"],
+          "Built and analyzed knowledge graph infrastructure for a large scientific dataset, then used graph mining workflows to surface recurring graph motifs and relationship patterns.",
+        chips: ["BioCypher", "Neo4j", "Graph analytics"],
         repo: "https://github.com/rejuve-bio/biocypher-kg",
       },
       {
@@ -89,30 +89,30 @@ const portfolio = {
     ],
     researchTitle: "Research and Analysis",
     researchIntro:
-      "Biomedical graph-mining reports across human biological KGs, transcription factor regulation, and protein interaction networks.",
+      "Graph-mining reports using scientific networks as the evaluation domain, with methods that apply to recurring structures in many graph datasets.",
     research: [
       {
         number: "20M edges",
-        label: "BioCypher KG · 2026",
-        title: "Human biological KG analysis",
+        label: "Knowledge graph · 2026",
+        title: "Large knowledge graph motif analysis",
         text:
-          "Analyzed a large human biological knowledge graph built from GO, STRING, TFLink, GENCODE, UniProt, and GAF data.",
+          "Analyzed a large knowledge graph built from heterogeneous entity and relationship sources, using sampled neighborhoods to identify recurring graph structures.",
         metrics: ["150,619 nodes", "20,000 neighborhoods", "11,311 instances"],
       },
       {
         number: "503 instances",
         label: "TFLink · 2026",
-        title: "Human regulatory network report",
+        title: "Directed network hierarchy report",
         text:
-          "Studied directed transcription factor relationships to identify recurring hierarchical structures and convergence points across human gene regulation.",
+          "Studied directed relationships to identify recurring hierarchical structures and convergence points in a dense network.",
         metrics: ["78,686 genes", "6,393,993 edges", "374 motif genes"],
       },
       {
         number: "14,877 instances",
         label: "STRING PPI · 2026",
-        title: "Protein interaction network report",
+        title: "Interaction network motif report",
         text:
-          "Mapped structural patterns in human protein interaction networks, highlighting immune, chromatin, mitochondrial, replication, and transport modules.",
+          "Mapped structural patterns in a large interaction network, highlighting recurring modules and motif types.",
         metrics: ["53,356 proteins", "6,612,766 links", "18 motif types"],
       },
     ],
@@ -131,7 +131,7 @@ const portfolio = {
       },
       {
         title: "Knowledge Graphs",
-        note: "Biomedical graph modeling, graph databases, and multi-format KG output.",
+        note: "Graph modeling, graph databases, and multi-format KG output.",
         tools: [
           ["Neo4j", `${devicon}/neo4j/neo4j-original.svg`],
           ["BioCypher", null, "BC"],
@@ -166,11 +166,11 @@ const portfolio = {
         ],
       },
     ],
-    footerEyebrow: "Available for AI, AI backend, and knowledge graph roles",
-    footerTitle: "Let’s make complex biological graphs easier to understand.",
+    footerEyebrow: "Available for AI, graph AI, and knowledge graph roles",
+    footerTitle: "Let’s make complex graphs easier to understand.",
     footerText:
-      "Biomedical KG pipelines, neural graph mining, LLM motif interpretation, plant disease classification, and deployable AI product interfaces.",
-    footerRole: "AI & Knowledge Graph Engineer",
+      "Knowledge graph pipelines, neural graph mining, LLM pattern interpretation, visual analytics, plant disease classification, and deployable AI product interfaces.",
+    footerRole: "AI & Graph Systems Engineer",
 };
 
 function currentPortfolio() {
