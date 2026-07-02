@@ -6,7 +6,7 @@ const devicon = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons";
 const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
 
 const links = {
-  aiCv: asset("Kedist_Shegute_AI_Knowledge_Graph_Engineer_CV.pdf"),
+  aiCv: asset("Kedist_Shegute_AI_Graph_Systems_Engineer_CV.pdf"),
 };
 
 const languageTools = [
